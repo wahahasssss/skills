@@ -5,7 +5,7 @@ if __name__ == "__main__":
     print("所有参数列表：", sys.argv)
     content = sys.argv[1]
     spit_str = sys.argv[2]
-    str_arr = content.split(",")
+    str_arr = content.split(spit_str)
     not_num = []
     for s in str_arr:
         try:
